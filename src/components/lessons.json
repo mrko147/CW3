@@ -1,11 +1,4 @@
-<script >
-
-import lessons from './components/lessons.vue';
-export default {
-  components:{ lessons },
-  data(){
-    return {
-       lessons: [
+[
     {
     "id": 1,
     "subject": "Math",
@@ -95,16 +88,3 @@ export default {
     "url": "images/Math.png"
     }
 ]
-    }
-  },
-  
-}
-
-</script>
-
-<template>
-  <lessons  :lessons="lessons"/>
-
-</template>
-
-
